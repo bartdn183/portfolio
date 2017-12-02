@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(image-path("pic3.jpg"));
+    background-image: url(image-path("header-bg2.jpg"));
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -175,7 +175,7 @@ header {
     text-align: center;
     color: white;
     .intro-text {
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 50px;
         .intro-lead-in {
             @include serif-font;
@@ -197,7 +197,7 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
+            padding-top: 200px;
             padding-bottom: 200px;
             .intro-lead-in {
                 @include serif-font;
