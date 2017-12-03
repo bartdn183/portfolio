@@ -16,3 +16,9 @@
 //= require bootstrap
 //= require agency
 
+window.setTimeout(function() {
+	$(".flash").fadeTo(4000, 0).slideUp(1500, function()
+	{
+	$(this).remove();
+	});
+}, 6000);
