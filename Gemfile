@@ -5,7 +5,6 @@ gem 'font-awesome-rails'
 gem 'jquery-easing-rails'
 gem 'mail_form'
 gem 'figaro'
-gem 'devise'
 gem 'awesome_print', require:"ap"
 gem 'hirb'
 
