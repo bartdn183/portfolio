@@ -1,8 +1,14 @@
 source 'https://rubygems.org'
 
-gem "bootstrap-sass"
-gem "font-awesome-rails"
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
 gem 'jquery-easing-rails'
+gem 'mail_form'
+gem 'figaro'
+gem 'devise'
+gem 'awesome_print', require:"ap"
+gem 'hirb'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use Puma as the app server
